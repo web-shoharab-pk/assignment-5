@@ -1,0 +1,63 @@
+
+body {
+    background-color: rgb(196, 255, 255);
+}
+.main-manu li a {
+    font-size: 24px;
+    color: black;
+}
+
+.main-manu li {
+    padding: 5px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+#foodInput {
+    font-size: 25px;
+}
+
+#search {
+    font-size: 25px;
+}
+.card{
+    width: 300px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 15px;
+}
+.card h1{
+    font-size: 25px;
+    padding: 15px 5px;
+    text-align: center;
+}
+.card img{
+    border-radius: 20px 20px 0px 0px;
+}
+#foodsData{
+   width: 500px;
+    background-color: #e044ee;
+    border-radius: 20px;
+    padding: 10px;
+    display: none;
+}
+.food-details img {
+    height: 300px;
+    border-radius: 30px;
+}
+.food-details h1{
+    padding: 5px;
+    font-size: 30px;
+}
+.food-details h3{
+    padding: 3px;
+    font-size: 25px;
+    text-align: left;
+}
+.food-details{
+    width: 70%;
+    margin: 0 auto;
+}
