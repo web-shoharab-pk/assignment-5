@@ -38,7 +38,7 @@ body {
     border-radius: 20px 20px 0px 0px;
 }
 #foodsData{
-   width: 500px;
+   width: 600px;
     background-color: #e044ee;
     border-radius: 20px;
     padding: 10px;
@@ -46,7 +46,8 @@ body {
 }
 .food-details img {
     height: 300px;
-    border-radius: 30px;
+    width: 400px;
+    border-radius: 20px;
 }
 .food-details h1{
     padding: 5px;

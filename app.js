@@ -21,10 +21,10 @@ search.addEventListener('click', function () {
             console.log(error);
             document.getElementById('foods').innerHTML = "";
             document.getElementById('foodsData').innerHTML = ' ';
-            const foods = document.getElementById('foods');
+            const allFood = document.getElementById('foods');
             const notFound = document.createElement('h1')
             notFound.innerHTML = `Sorry this item not found...Try again!`;
-            foods.appendChild(notFound);
+            allFood.appendChild(notFound);
         })
 })
 
