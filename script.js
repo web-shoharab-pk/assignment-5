@@ -1,5 +1,5 @@
-const search = document.getElementById('search');
-search.addEventListener('click', function () {
+const searchBtn = document.getElementById('search-button');
+searchBtn.addEventListener('click', function () {
     const foodName = document.getElementById('foodInput').value;
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${ foodName }`)
         .then(res => res.json())
