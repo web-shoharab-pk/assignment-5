@@ -1,5 +1,4 @@
-const searchBtn = document.getElementById('search-button');
-searchBtn.addEventListener('click', function () {
+document.getElementById('search-button').addEventListener('click', function () {
     const foodName = document.getElementById('foodInput').value;
     fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${ foodName }`)
         .then(res => res.json())
@@ -42,12 +41,10 @@ let handlefoodClick = foodId => {
             <br>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
             <br>
-            <h2>1. ${ data.meals[0].strMeasure1 }</h2>
-            <h2>2. ${ data.meals[0].strMeasure2 }</h2>
-            <h2>3. ${ data.meals[0].strMeasure3 }</h2>
-            <h2>4. ${ data.meals[0].strMeasure4 }</h2>
-          
-           
+            <h3>1. ${ data.meals[0].strMeasure1 }</h3>
+            <h3>2. ${ data.meals[0].strMeasure2 }</h3>
+            <h3>3. ${ data.meals[0].strMeasure3 }</h3>
+            <h3>4. ${ data.meals[0].strMeasure4 }</h3>         
             `;
             foodDetails.className = "food-details";
             foodData.appendChild(foodDetails);
